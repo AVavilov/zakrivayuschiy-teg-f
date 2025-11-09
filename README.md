@@ -1,1 +1,1 @@
-https://github.com/AVavilov/zakrivayuschiy-teg-f#
+https://github.com/AVavilov/zakrivayuschiy-teg-f
