@@ -339,6 +339,7 @@
 .like-icon {
   width: 39px;
   height: 36px;
+  transform-origin: center;
 }
 
 .like-icon .contour {
@@ -358,6 +359,7 @@
 
 .like-icon .sparks {
   opacity: 0;
+  fill: var(--color-like);
 }
 
 .like-icon:hover .core {
@@ -397,6 +399,7 @@
 
 .like-icon.is-liked .heart {
   animation: heart-scale 0.3s 0.1s ease-in alternate;
+  transform-origin: center;
 }
 
 .like-icon.is-liked .sparks {
@@ -408,7 +411,7 @@
     transform: scale(1);
   }
   to {
-    transform: scale(1.1);
+    transform: scale(1.15);
   }
 }
 
